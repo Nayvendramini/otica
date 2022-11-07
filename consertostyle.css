@@ -1,0 +1,136 @@
+/*reset*/
+*,*{
+    margin: 01px;
+    margin-top: 5px;
+    padding: 5px;
+    color: rgb(19, 16, 204);
+    
+    
+}
+
+
+
+
+
+.body {
+    background-color:  rgb(255, 209, 25);
+
+}
+h2 {
+    color: hsl(236, 100%, 56%);
+}
+p {
+    color: rgb(0,0,255)
+}
+       
+ 
+
+.conteudo { 
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(250, 245, 231);
+    
+    border-top:  20px solid rgb(51, 0, 255); }
+.linha-vertical {
+        height: 200px;
+        border-bottom: 1px solid rgb(51, 0, 255);
+        }
+        #linha-horizontal {
+        width: 300px;
+        border: 1px solid #000;
+        }
+   
+.menu{
+    display: flex ;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    font-size: 0px;
+    align-items: center;
+    
+}
+.nome{
+   align-items: center; 
+}
+
+
+.menu a{
+    padding: 20px;
+    font-size-adjust: inherit;
+    -ms-text-combine-horizontal: 1px;
+  
+
+}
+.video{
+    background-color: blue;
+}
+
+
+style
+       h1{
+       background-color:  rgb(8, 4, 253); 
+       color: aliceblue;
+       
+       }
+       h2{
+       color: rgb(14, 6, 247);
+       }
+       h3{
+       background-color:rgb(252, 194, 19);
+       }
+       h4{
+       background-color: rgb(243, 240, 216);
+       color: rgb(19, 16, 204);
+       }
+       h5{
+       font-size: medium;
+       color: rgb(19, 16, 204);
+       }
+       .holder{
+        display: flex;
+        justify-content: left;
+       }
+      .imagem{
+        width: 200px;
+        margin: 10px;
+        position: relative;
+        text-align: center;
+       }
+      .image ::after{
+        content:attr(data title);
+        position: absolute;
+        width 100%;
+        bottom: -20px;
+        left: 50;
+       }
+       .legenda{
+       border: solid;
+       background-color: rgb(255, 217, 0);
+       font-style: normal;
+       color: aliceblue;
+       }
+      .blocotext{
+       border: solid;
+       background-color: rgb(252, 194, 19);
+       font-style: normal;
+       color: aliceblue;
+  
+       }
+       .pagefinal{
+       border: solid;
+       background-color: rgb(252, 194, 19); 
+       color: blue;
+       }
